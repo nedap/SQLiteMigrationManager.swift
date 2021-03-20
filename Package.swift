@@ -7,7 +7,7 @@ let package = Package(
         .library(name: "SQLiteMigrationManager", targets: ["SQLiteMigrationManager"])
     ],
     dependencies: [
-        .package(url: "https://github.com/stephencelis/SQLite.swift.git", from: "0.12.0")
+        .package(url: "https://github.com/nedap/SQLite.swift.git", from: "0.12.3")
     ],
     targets: [
         .target(
